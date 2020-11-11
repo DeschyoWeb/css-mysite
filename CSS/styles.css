@@ -1,0 +1,140 @@
+
+/**********TAG SELECTOR**********/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Sacramento', cursive;
+  color: #355c7d;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #355c7d;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #6c5b7b;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #3f72af;
+  border-width: 5px;
+  width: 5%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+
+/**********CLASS SELEKTOR**********/
+
+
+.top-container {
+  background-color: #f67280;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #f67280;
+  padding: 40px 0;
+}
+
+.profile {
+  padding-top: 40px;
+}
+
+.skills {
+  background-color: #f67280;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.skill-row {
+ width: 50%;
+ margin: 100px auto 100px auto;
+ text-align: left;
+ line-height: 2;
+}
+
+.profile-description {
+  width: 35%;
+  margin: auto;
+  line-height: 2;
+}
+
+.profilbild {
+  width: 15%
+}
+
+.skill1-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill2-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  /* right: 420px;
+  top: 50px; */
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  /* top: 350px;
+  left: 390px; */
+  left: 300px;
+  bottom: 300px;
+}
+
+.button {
+  background-color: #355c7d;
+  border-radius: 15px;
+  border-style: none;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  color: #f67280;
+}
+
+.footer-link {
+  padding: 0 40px;
+  color: #355c7d;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #cbaf87;
+}
+
+.credits-footer {
+  margin-top: 30px;
+  font-size: 0.75rem;
+  color: white;
+}
